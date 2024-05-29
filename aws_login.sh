@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 if [[ -z "$AWS_SSO_SESSION_NAME" || -z "$AWS_SSO_ACCOUNT_PROFILE" ]]; then
     echo "Please set the AWS_SSO_SESSION_NAME and AWS_SSO_ACCOUNT_PROFILE environment variables"
 else
